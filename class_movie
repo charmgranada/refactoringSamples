@@ -1,5 +1,15 @@
 Class Movie
 {
+    public int getPriceCode() {
+        return _priceCode;
+    }
+
+    public setPriceCode (int arg) {
+        _priceCode = arg;
+    }
+
+    private int _priceCode;
+
     public Movie(String name, int priceCode) {
         _name = name;
         setPriceCode(priceCode);
