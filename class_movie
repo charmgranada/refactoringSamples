@@ -1,5 +1,10 @@
 Class Movie
 {
+    public Movie(String name, int priceCode) {
+        _name = name;
+        _priceCode = priceCode;
+    }
+
     double getCharge(int daysRented) {
         double result = 0;
         switch (getPriceCode()) {
